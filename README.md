@@ -4,7 +4,6 @@ AI coding assistant skills for Microsoft Fabric developers and consumers. Optimi
 
 
 ## How you can use Fabric Skills (CLI/Claude Code/VSCode prompts)
-###  INTERNAL Microsoft -- a document with details is available here [Fabric SKills - Internal User Guide](https://microsoft-my.sharepoint.com/:w:/p/bocrivat/IQBxe55loRJmSa4S7vnDD_SUAWkvuTW7vwP4pd3k9FMGNek?e=My5R8c)
 
 
 - **[Analytics PDF report](prompt_examples/NYC_AnalyzeExistingDataCreatePDF.txt)** — Analyzes Fabric data and produces a PDF report
@@ -48,9 +47,11 @@ views for consumption
 ### Manual Installation
 
 1. Clone this repository
-2. Run the installer for your platform:
-   - Windows: `.\install.ps1`
-   - macOS/Linux: `./install.sh`
+2. Add the marketplace from your local clone:
+   ```bash
+   copilot plugin marketplace add /path/to/skills-for-fabric
+   copilot plugin install fabric-skills@fabric-collection
+   ```
 
 
 
@@ -142,8 +143,6 @@ These skills work with multiple AI coding tools:
 | Cursor | Copy `compatibility/.cursorrules` to project root |
 | Codex/Jules | Copy `compatibility/AGENTS.md` to project root |
 | Windsurf | Copy `compatibility/.windsurfrules` to project root |
-
-The install scripts automate this setup.
 
 ## MCP Server Registration
 
