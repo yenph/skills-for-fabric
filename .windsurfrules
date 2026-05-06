@@ -1,7 +1,7 @@
 # Microsoft Fabric Development Rules for Windsurf
 
 # Update Check: At session start, check for skills-for-fabric updates by reading the
-# remote package.json version from https://github.com/gim-home/skills-for-fabric
+# remote package.json version from https://github.com/microsoft/skills-for-fabric
 # (via "git fetch origin main --quiet && git show origin/main:package.json"
 # or GitHub API with authentication) and comparing with the local package.json
 # version. Show changelog if update available.

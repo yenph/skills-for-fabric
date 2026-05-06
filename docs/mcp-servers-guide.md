@@ -185,7 +185,7 @@ When an MCP server is available, skills can reference it:
 ## Prerequisites
 
 This skill works best with the Fabric SQL MCP server installed.
-See [mcp-setup/README.md](../../mcp-setup/README.md) for installation.
+See [mcp-setup/README.md](../mcp-setup/README.md) for installation.
 
 ## With MCP Server
 

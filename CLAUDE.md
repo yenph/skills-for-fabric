@@ -1,6 +1,6 @@
 # Microsoft Fabric Development Instructions
 
-> **Update Check**: At session start, check for skills-for-fabric updates by reading the remote `package.json` version from `https://github.com/microsoft/skills-for-fabric` (via `git fetch origin master --quiet && git show origin/master:package.json` or GitHub API with authentication) and comparing with the local `package.json` version. Show changelog if update available.
+> **Update Check**: At session start, check for skills-for-fabric updates by reading the remote `package.json` version from `https://github.com/microsoft/skills-for-fabric` (via `git fetch origin main --quiet && git show origin/main:package.json` or GitHub API with authentication) and comparing with the local `package.json` version. Show changelog if update available.
 
 This project uses Microsoft Fabric for data engineering, warehousing, and analytics.
 

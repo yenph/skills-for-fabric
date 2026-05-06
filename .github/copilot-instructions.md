@@ -37,6 +37,7 @@ Every skill, other than check-updates, must have a `SKILL.md` with:
 - End-to-end skills: `e2e-{task-name}` (e.g., `e2e-medallion-architecture`)
 - Developer skills: `{endpoint_or_engine}-authoring-{access_method}` (e.g., `sqldw-authoring-cli`)
 - Consumer skills: `{endpoint_or_engine}-consumption-{access_method}` (e.g., `sqldw-consumption-cli`)
+- Operations skills: `{endpoint_or_engine}-operations-{access_method}` (e.g., `sqldw-operations-cli`)
 - Agents: `{persona}` (e.g., `FabricDataEngineer`) for cross-endpoint orchestration
 
 ### Description Field
@@ -57,7 +58,10 @@ Write descriptions that enable accurate skill discovery:
 Target users who write code: SDKs, APIs, automation scripts, CI/CD, infrastructure-as-code.
 
 ### Consumers (`-consumption-` skills)
-Target users who interact via CLI/AI: run queries, explore data, monitor jobs, ad-hoc operations.
+Target users who interact via CLI/AI: run queries, explore data, ad-hoc operations.
+
+### Operations (`-operations-` skills)
+Target users diagnosing performance and health: system view queries, multi-step investigation workflows, threshold-based recommendations.
 
 ## Cross-Tool Compatibility
 
