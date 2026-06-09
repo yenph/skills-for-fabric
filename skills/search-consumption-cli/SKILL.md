@@ -1,12 +1,16 @@
 ---
 name: search-consumption-cli
 description: >
-  Find and discover Microsoft Fabric items across workspaces when the workspace is unknown.
-  Use when the user wants to: (1) find an item by name across workspaces,
-  (2) list items of specific type across workspaces, (3) identify which workspace contains an item,
-  (4) return item/workspace IDs for downstream API calls.
+  Find and discover Microsoft Fabric items (warehouses, lakehouses, notebooks, KQL databases, reports, pipelines,
+  and more) across all workspaces using the OneLake Catalog Search API — especially when the workspace is unknown.
+  Use when the user wants to: (1) find an item by name or description across workspaces,
+  (2) list all items of a specific type (e.g., all warehouses, all lakehouses),
+  (3) identify which workspace contains an item,
+  (4) retrieve item and workspace IDs for use in downstream API calls.
+  Does NOT query data inside items — use workload-specific skills for that.
   Triggers: "which workspace has", "where is", "what items do I have", "do I have",
-  "find item", "find all items", "search for item", "discover items", "find across workspaces".
+  "find item", "find all items", "search for item", "discover items", "find across workspaces",
+  "list all warehouses", "list all lakehouses", "where is my", "locate item".
 ---
 
 > **Update Check — ONCE PER SESSION (mandatory)**
